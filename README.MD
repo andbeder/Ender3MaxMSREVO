@@ -28,7 +28,10 @@ This version of the firmware has been compiled to work with the ***Creality Ende
 ```
 
 ## Swiss REVO Settings.gcode ##
-Print this file to set the new distances for the extruder (NG REVO is wider than the stock extruder). Please edit line M852 with the correct probe offsets as measured by calipers to your print nozzle. The example here is set to 40mm -> Left, 10mm -> In Front
+Print this file to set the new distances for the extruder (NG REVO is wider than the stock extruder). Please edit line M852 with the correct probe offsets as measured by calipers to your print nozzle. The example here is set to 40mm -> Left, 10mm -> In Front.
+**Note**
+ Shift Origin Left == Move Printing -> Right, hence the positive sign (we want to shift the printing to the left)
+
 ```gcode
 M92 E412.5    		; set E-steps to 412.5
 M206 X40      		; shift the X origin left by d mm (e.g., M206 X-5)
