@@ -7,7 +7,7 @@ This version of the firmware has been compiled to work with the ***Creality Ende
  2. Copy *Firmware.bin* to root directory
  3. Insert SD card into printer and power up
  4. After flash completes, power down and remove card
- 5. Remove any remaining files from the SD card, copy *MS_NG_ESTEP400.gcode* to the card
+ 5. Remove any remaining files from the SD card, copy *Swiss REVO Settings.gcode* to the card
  6. Power up printer
  7. Print *Swiss REVO Settings.gcode* to adjust print settings (required for new extruder)
  8. All done!
